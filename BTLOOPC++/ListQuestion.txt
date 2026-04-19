@@ -1,0 +1,3 @@
+Animal,Easy,Elephant,It_is_a_very_large_animal, It_has_a_long_trunk, It_has_big_ears
+Technology,Medium,Keyboard, It_is_used_with_a_computer, It_has_many_keys, You_use_it_to_type
+Fruit,Hard,Pineapple,It_is_a_tropical_fruit, Its_skin_is_rough, It_has_a_crown_on_top
