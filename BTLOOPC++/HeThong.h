@@ -16,7 +16,7 @@
 
 class HeThong {
 private:
-    CauHinhGame config;
+    CauHinhGame<int> config;
     std::map<std::string, NguoiDung*> listPlayer;
     std::unordered_map<std::string, std::unordered_map<std::string, std::vector<CauHoi>>> listQuestion;
     std::vector<std::string> historyGame;
@@ -29,13 +29,13 @@ public:
     bool Login(const std::string& user, const std::string& pass);
     void Logout();
     void run();
-    void batDauTroChoi(const CauHinhGame& cfg, const std::string& chuDe, const std::string& mucDo);
+    void batDauTroChoi(const CauHinhGame<int>& cfg, const std::string& chuDe, const std::string& mucDo);
 
     void readFileUser();
     void writeFileUser();
     void loadQuestion(std::unordered_map<std::string, std::unordered_map<std::string, std::vector<CauHoi>>>& _listQuestion);
     void unloadQuestion();
-    CauHinhGame loadConfig();
+    CauHinhGame<int> loadConfig();
     void unloadConfig();
     void showTopics() const;
     void showLevels(const std::string& chuDe) const;

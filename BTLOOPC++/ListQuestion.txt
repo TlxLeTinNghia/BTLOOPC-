@@ -1,3 +1,42 @@
 Animal,Easy,Elephant,It_is_a_very_large_animal, It_has_a_long_trunk, It_has_big_ears
 Technology,Medium,Keyboard, It_is_used_with_a_computer, It_has_many_keys, You_use_it_to_type
 Fruit,Hard,Pineapple,It_is_a_tropical_fruit, Its_skin_is_rough, It_has_a_crown_on_top
+Fruit,Easy,Banana,It is long and yellow,Monkeys love eating it,You have to peel it to eat
+Fruit,Easy,Apple,It is usually red or green,It is crunchy and sweet,An apple a day keeps the doctor away
+Fruit,Medium,Watermelon,It is green outside and red inside,It has many black seeds,It is very watery and great for summer
+Fruit,Medium,Grape,They grow in bunches on vines,They can be purple or green,They are used to make wine
+Fruit,Hard,Durian,It is known as the king of fruits,It has a very strong smell,Its skin is covered in sharp thorns
+Fruit,Medium,Strawberry,It is small and red with seeds on the outside,It is heart-shaped,It goes well with cream or chocolate
+Fruit,Hard,Dragon Fruit,It has a bright pink skin with green scales,The inside is white or red with tiny black seeds,It is a fruit from a cactus plant
+Fruit,Easy,Orange,It is the same name as a color,It is famous for having a lot of Vitamin C,It is often squeezed into juice
+Fruit,Medium,Mango,It is very sweet and juicy when ripe,It has a large flat stone (seed) inside,It is popular in tropical countries like Vietnam
+Fruit,Hard,Pomegranate,It is round and red,Inside it is filled with many juicy red seeds,The name starts with the letter P
+Animal,Easy,Lion,It is known as the king of the jungle,Male ones have a large mane,It makes a loud roar
+Animal,Medium,Giraffe,It has a very long neck,It has brown spots all over its body,It eats leaves from the tops of trees
+Animal,Medium,Penguin,It is a bird but it cannot fly,It lives in cold places like Antarctica,It waddles when it walks and swims very well
+Animal,Hard,Platypus,It is a mammal but it lays eggs,It has a bill like a duck,It lives in Australia
+Animal,Easy,Rabbit,It has long ears and a short tail,It loves eating carrots,It moves by hopping
+Animal,Hard,Chameleon,It can change its skin color,It has a very long and sticky tongue,Its eyes can move in different directions
+Animal,Medium,Shark,It lives in the ocean,It has many rows of sharp teeth,It has a dorsal fin that sticks out of the water
+Animal,Easy,Bee,It is a small insect with yellow and black stripes,It makes honey,It lives in a hive
+Animal,Hard,Octopus,It lives in the sea and has eight arms,It has three hearts,It can spray ink to escape from enemies
+Object,Easy,Umbrella,You use it when it rains,It keeps you dry,It has a handle and a canopy
+Object,Medium,Bicycle,It has two wheels,You have to pedal to make it move,It is a popular way to exercise
+Object,Hard,Telescope,It is used to look at the stars,It makes distant objects look closer,Astronomers use it
+Object,Easy,Computer,It has a screen and a keyboard,You use it to browse the internet,It can be a laptop or a desktop
+Object,Medium,Camera,It is used to take photos,It captures memories in pictures,It has a lens and a flash
+Job,Easy,Doctor,This person works in a hospital,They help sick people get better,They often wear a white coat
+Place,Medium,Library,It is a building full of books,You have to be quiet inside,You can borrow books from here
+Weather,Easy,Rainbow,It has seven colors,It appears after the rain when it is sunny,It is shaped like an arch
+Object,Hard,Compass,It helps you find your way,The needle always points North,Hikers and sailors use it
+Object,Medium,Piano,It is a large musical instrument,It has 88 black and white keys,You play it by pressing the keys with your fingers
+OOP,Easy,Class,It is a blueprint or template for creating objects,It defines properties and behaviors,It is the basic building block of OOP
+OOP,Easy,Object,It is an instance of a class,It has state and behavior,Everything in the real world can be modeled as this
+OOP,Medium,Encapsulation,It hides the internal details of an object,It uses private and public access modifiers,It is often called data hiding
+OOP,Medium,Inheritance,It allows a class to acquire properties from another class,It promotes code reusability,It uses terms like Parent and Child or Base and Derived
+OOP,Hard,Polymorphism,The word means many forms,It allows one interface to be used for a general class of actions,It is often implemented using Method Overriding
+OOP,Hard,Abstraction,It shows only essential features and hides complexity,It can be achieved using abstract classes or interfaces,It helps reduce programming effort and complexity
+OOP,Medium,Constructor,It is a special method called when an object is created,It usually has the same name as the class,It is used to initialize the object's attributes
+OOP,Hard,Interface,It is a completely abstract class,It contains only abstract methods,A class can implement multiple ones of these
+OOP,Medium,Method,It represents the behavior of an object,It is a function defined inside a class,It can perform actions or return data
+OOP,Hard,Destructor,It is a special method called when an object is destroyed,It is used to free up memory or resources,In C++ its name starts with a tilde (~) symbol

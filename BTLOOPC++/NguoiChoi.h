@@ -7,7 +7,18 @@ private:
     int kyLuc;
 
 public:
-    NguoiChoi(std::string _id = "", std::string _name = "Unknown", std::string _pass = "123", int _kyLuc = 0);
+    NguoiChoi() {
+        name = "";
+        setPass("");
+        kyLuc = 0;
+    }
+    NguoiChoi(std::string _id, std::string _name, std::string _pass, int _kyLuc);
+    NguoiChoi(const NguoiChoi& other) {
+        id = other.id;
+        name = other.name;
+        kyLuc = other.kyLuc;
+
+    }
     ~NguoiChoi();
 
     int getKyLuc() const;

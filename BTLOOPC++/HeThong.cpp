@@ -114,11 +114,11 @@ void HeThong::unloadQuestion() {
     }
 }
 
-CauHinhGame HeThong::loadConfig() {
+CauHinhGame<int> HeThong::loadConfig() {
     std::ifstream fin("ConfigGame.txt");
     std::string line;
     if (!std::getline(fin, line)) {
-        return CauHinhGame();
+        return CauHinhGame<int>();
     }
 
     std::stringstream ss(line);
@@ -161,7 +161,7 @@ void HeThong::showLevels(const std::string& chuDe) const {
     }
 }
 
-void HeThong::batDauTroChoi(const CauHinhGame& cfg, const std::string& chuDe, const std::string& mucDo) {
+void HeThong::batDauTroChoi(const CauHinhGame<int>& cfg, const std::string& chuDe, const std::string& mucDo) {
     auto topicIt = listQuestion.find(chuDe);
     if (topicIt == listQuestion.end()) {
         std::cout << "Khong co chu de nay.\n";
@@ -174,7 +174,7 @@ void HeThong::batDauTroChoi(const CauHinhGame& cfg, const std::string& chuDe, co
         return;
     }
 
-    std::srand(static_cast<unsigned int>(std::time(nullptr)));
+    std::srand((std::time(0)));
     const std::vector<CauHoi>& ds = levelIt->second;
     const CauHoi& q = ds[std::rand() % ds.size()];
 
@@ -394,7 +394,7 @@ void HeThong::editQuestion() {
     std::cin >> index;
     std::cin.ignore();
 
-    if (index < 0 || index >= static_cast<int>(ds.size())) {
+    if (index < 0 || index >= (int)(ds.size())) {
         std::cout << "Chi so khong hop le.\n";
         return;
     }
@@ -406,6 +406,7 @@ void HeThong::editQuestion() {
     ds[index] = moi;
     std::cout << "Sua cau hoi thanh cong.\n";
 }
+
 void HeThong::deleteQuestion() {
     std::string chuDe, mucDo;
     std::cout << "Nhap chu de can xoa: ";

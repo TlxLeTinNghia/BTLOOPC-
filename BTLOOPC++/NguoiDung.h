@@ -33,26 +33,5 @@ public:
 
 
 
-//// phúc an viết
-//#pragma once
-//#include <iostream>
-//#include <string>
-//using namespace std;
-//class NguoiDung
-//{
-//protected:
-//	string id; // tìm cách viết sinh id bằng biến static : vd dụ static = 1 ; id = ND001
-//	string name;
-//	string passWord;
-//public:
-//	NguoiDung(string _id, string _name, string _pass) :id(_id), name(_name), passWord(_pass) {};
-//	string getId();
-//	string getName();
-//	string getPassword();
-//	virtual void displayMenu() const;  
-//	virtual void displayProfile()const ;
-//	//bool login();
-//	//bool logout();
-//	//bool newAccount();  không nên để ở đay 
-//};
+
 
