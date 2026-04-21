@@ -1,4 +1,3 @@
-// Tín làm
 #pragma once
 #include "NguoiDung.h"
 
@@ -10,6 +9,3 @@ public:
 
     void displayMenu() const override;
 };
-
-//bool setLuatChoi(); // đưa ra các luật chơi như 1 vòng tăng giảm bao nhiêu điểm 
-//bool themCauHoi();// nghĩ nên đem nó qua bên câu hỏi

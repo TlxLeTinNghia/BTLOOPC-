@@ -1,4 +1,3 @@
-// Phúc AN
 #pragma once
 #include <string>
 
@@ -29,9 +28,3 @@ public:
     bool operator==(const NguoiDung& other) const;
     virtual void displayMenu() const = 0;
 };
-
-
-
-
-
-

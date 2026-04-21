@@ -12,8 +12,3 @@ Game::Game() {
 
 Game::~Game() {
 }
-
-int Game::goiY() {
-    std::cout << "\n[He thong]: Ban da su dung quyen tro giup goi y!\n";
-    return 1;
-}

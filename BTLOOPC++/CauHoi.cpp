@@ -1,11 +1,7 @@
 #include "CauHoi.h"
 
-CauHoi::CauHoi(std::string chuDe, std::string capDo, std::string word, std::vector<std::string> goiY)
-    : chuDe(chuDe), capDo(capDo), word(word), goiY(goiY) {
-}
-
-std::string CauHoi::getCapDo() const {
-    return capDo;
+CauHoi::CauHoi(std::string chuDe, std::string word, std::vector<std::string> goiY)
+    : chuDe(chuDe), word(word), goiY(goiY) {
 }
 
 std::string CauHoi::getChuDe() const {
@@ -30,9 +26,6 @@ std::istream& operator>>(std::istream& in, CauHoi& ch) {
     in >> std::ws;
     std::getline(in, ch.chuDe);
 
-    std::cout << "Nhap cap do: ";
-    std::getline(in, ch.capDo);
-
     std::cout << "Nhap dap an: ";
     std::getline(in, ch.word);
 
@@ -53,7 +46,6 @@ std::istream& operator>>(std::istream& in, CauHoi& ch) {
 
 std::ostream& operator<<(std::ostream& out, const CauHoi& ch) {
     out << "Chu de: " << ch.chuDe << '\n';
-    out << "Cap do: " << ch.capDo << '\n';
     out << "Dap an: " << ch.word << '\n';
     out << "Goi y: ";
     for (const std::string& gy : ch.goiY) {

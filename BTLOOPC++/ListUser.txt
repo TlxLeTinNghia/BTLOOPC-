@@ -1,2 +1,2 @@
-NC001,Nghia,12345,0,Player
+NC001,Nghia,12345,20,Player
 AD001,admin,admin123,0,Admin

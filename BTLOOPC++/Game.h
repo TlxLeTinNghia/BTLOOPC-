@@ -11,5 +11,4 @@ protected:
 public:
     Game();
     ~Game();
-    int goiY();
 };

@@ -1,9 +1,21 @@
 #include "NguoiChoi.h"
 #include <iostream>
 
+NguoiChoi::NguoiChoi() {
+    name = "";
+    setPass("");
+    kyLuc = 0;
+    setRole("Player");
+}
+
 NguoiChoi::NguoiChoi(std::string _id, std::string _name, std::string _pass, int _kyLuc)
     : NguoiDung(_id, _name, _pass), kyLuc(_kyLuc) {
     setRole("Player");
+}
+
+NguoiChoi::NguoiChoi(const NguoiChoi& other)
+    : NguoiDung(other.id, other.name, other.getPass()), kyLuc(other.kyLuc) {
+    setRole(other.getRole());
 }
 
 NguoiChoi::~NguoiChoi() {
